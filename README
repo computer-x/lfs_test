@@ -1,0 +1,14 @@
+# --------------------------
+# init
+# --------------------------
+git lfs install
+
+
+# --------------------------
+# use
+# --------------------------
+git lfs track $file_name
+git add .gitattributes
+git add $file_name
+git commit ***
+git push ***
